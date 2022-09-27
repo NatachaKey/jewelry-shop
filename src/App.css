@@ -10,8 +10,6 @@ font-weight: bolder;
 nav{
   display: flex;
   justify-content: center;
-  margin-left:10px;
-  margin-right:10px;
   padding: 10px;
   background: #f5f5f5;
   font-size: 20px;
@@ -114,5 +112,7 @@ border: none;
   }
   nav{
   font-size:15px;
+  margin-left:20px;
+  margin-right:20px;  
   }
 }
