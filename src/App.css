@@ -99,8 +99,8 @@ border: none;
 
 @media all and (max-width:500px){
   nav{
-    font-size: 15px;
-    font-weight: bold;
+    font-size: 10px;
+   
   }
   .products {
     display: flex;
