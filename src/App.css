@@ -101,4 +101,12 @@ border: none;
     font-size: 15px;
     font-weight: bold;
   }
+  .products {
+    display: flex;
+    flex-direction: column;
+   
+  }
+  .productCard{
+    width:auto;
+  }
 }
