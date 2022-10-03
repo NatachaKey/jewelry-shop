@@ -14,7 +14,7 @@ const showTextClick= (element)=>{
         const {id, name, price, image,  description, showMore}= element;
         return(<div className="productCard" key={id}>  
         
-            <img className="bigger" src={image} alt="foto" width="400px" height="400px"/>
+            <img className="bigger" src={image} alt="foto" width="380px" height="380px"/>
             <h3>{name}</h3>           
             <h4> € {price}</h4>
             <p> {showMore ? description : description.substring(0, 40)} </p>
