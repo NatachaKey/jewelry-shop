@@ -40,7 +40,6 @@
 }
         section {
             padding: 60px 0;
-           /* min-height: 100vh;*/
         }
 
 .sec-title{
@@ -119,7 +118,7 @@
     display: block;
     font-size: 18px;
     padding: 0px;
-   text-align: center;
+    text-align: center;
     font-weight: 600;
     -moz-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
