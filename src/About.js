@@ -18,19 +18,12 @@ function About(){
                         </ul>
                        
                     </div>
-                </div>
-
-               
-              
-                      
-              
+                </div>   
             </div>
         </div>
-    </section>
-
+ </section>
 
     </div>
-
 
 }
 export default About;
