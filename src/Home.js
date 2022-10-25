@@ -5,7 +5,6 @@ import Jewelry from "./Jewelry";
 
 function Home(){
 
-
 const [jewelry, setJewelry]= useState(data);
 
   const chosenJewelry = (searchTerm) =>{
@@ -17,8 +16,8 @@ const [jewelry, setJewelry]= useState(data);
     <div className="cont">
       <h2 className="back">Envío gratuito para los pedidos superiores a 2000$</h2>
     </div>
-  <Buttons filteredJewelry={chosenJewelry}/>
-  <Jewelry password={jewelry}/>
+  <Buttons filteredJewelry={ chosenJewelry }/>
+  <Jewelry password={ jewelry }/>
   
   </div>
   )
