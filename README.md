@@ -1,4 +1,4 @@
-Website made with React, CSS3, JSX. Responsive for all mobile devices. 
+# Website made with React, CSS3, JSX. Responsive for all mobile devices. 
 
 ## In the project directory, you can run:
 
