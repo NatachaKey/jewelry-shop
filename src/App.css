@@ -81,15 +81,7 @@
      margin: 10px;
      border: none;
 }
-.infoBtn{
-     color:#fff;
-     background-color:#c4984f;
-     padding:8px;
-     border:none;
-}
-a{
-     color:#fff;
-}
+
  @media all and (max-width:500px){
      nav{
          font-size: 12px;
@@ -112,12 +104,5 @@ a{
      .back {
          font-size: 10px;
     }
-      .infoBtn{
-     color:#fff;
-     background-color:#c4984f;
-     padding:10px;
-     border:none;
-}
-      a{
-      color:#fff;}
+   
 }
