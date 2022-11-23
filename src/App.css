@@ -84,7 +84,8 @@
 .ctaBtn{
      background-color: #000000 ;
      color:#fff;
-     border: none
+     border: none;
+     padding:8px;
 }
 
  @media all and (max-width:500px){
