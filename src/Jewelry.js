@@ -3,13 +3,12 @@ import { useState } from "react";
 function Jewelry({password}){
 const [showText,setShowText] = useState(false);
 
-const showTextClick= (element)=>{
+const showTextClick = (element) => {
     element.showMore=!element.showMore 
     setShowText(!showText)
-}
+     }
 
-    return(
-    <div className="products">
+    return( <div className="products">
     {password.map((element=>{
         const { id, name, price, image,  description, showMore }= element;
         return(<div className="productCard" key={ id }>  
@@ -20,11 +19,10 @@ const showTextClick= (element)=>{
             <p> { showMore ? description : description.substring(0, 40)} </p>
             <button className="seeMore" onClick={ ()=> showTextClick(element)}>{ showMore ? "Ver menos" : "Ver más"}</button>
             
-     )
+        </div>)
     }
-))}
-   </div>  
-    )
+    ))}
+   </div>)  
 }
 
 export default Jewelry;
