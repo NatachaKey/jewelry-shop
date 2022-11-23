@@ -81,6 +81,11 @@
      margin: 10px;
      border: none;
 }
+.ctaBtn{
+     background-color: #000000 ;
+     color:#fff;
+     border: none
+}
 
  @media all and (max-width:500px){
      nav{
