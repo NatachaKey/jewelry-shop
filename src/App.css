@@ -87,6 +87,9 @@
      padding:8px;
      border:none;
 }
+a{
+     color:#fff;
+}
  @media all and (max-width:500px){
      nav{
          font-size: 12px;
@@ -115,4 +118,6 @@
      padding:10px;
      border:none;
 }
+      a{
+      color:#fff;}
 }
