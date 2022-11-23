@@ -21,8 +21,9 @@ const showTextClick = (element) => {
             <p> { showMore ? description : description.substring(0, 40)} </p>
             <button className="seeMore" onClick={ ()=> showTextClick(element)}>{ showMore ? "Ver menos" : "Ver más"}</button>
             <Link to="/contactus">
-                <button> Contact us</button>
-</Link>
+                <button className="ctaBtn"> Contact us</button>
+            </Link>
+
         </div>)
     }
     ))}
